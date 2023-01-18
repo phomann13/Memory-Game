@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(20, 40, 60);
+    color: rgb(240, 248, 255);
+    
+}
+
+h1 {
+    color: rgba(228, 34, 8, 1);
+    text-align: center;
+    font-size: 100px;
+}
+p1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+.level1grid {
+   
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, auto);
+}
+.level2grid {
+   
+    display: grid;
+    gap: 1px;
+    grid-template-columns:repeat(4, auto);;
+}
+.level3grid {
+   
+    display: grid;
+    gap: 1px;
+    grid-template-columns:repeat(6, auto);;
+    /* //grid-template-rows: 1fr 1fr 1fr 1fr; */
+}
+div > div {
+    padding: 10px;
+    background-color: #ccc;
+}
+.box{
+    display: none;
+    position: relative;
+    
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+}
+.button1{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 200px 40px;
+    cursor: pointer;
+}
+
+.input{
+    background-color: black;
+    color: black;
+    text-align: center;
+    margin: auto;
+    color:rgb(20, 40, 60)
+}
+.box img{
+   
+    object-fit: fill;
+    
+    height: 100px;
+    width: 100px;
+}
+body .startButton{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    margin: auto;
+    display: block;
+    
+}
+.counter {
+    
+    height: 20px;
+    width: fit-content;
+    text-align: left;
+    color: white;
+    padding: 5px;
+    border: 5px solid red;
+    background-color: black;
+}
+.EndBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    color: red;
+    text-align: Center;
+    font-size: 200px;
+    border: 5px solid red;
+    background-color: black;
+}
+.EndButton{
+    text-align: center;
+    
+    height: 200px;
+    width: fit-content;
+    font-size: 150px;
+    position: relative;
+    background-color: red;
+    color: black;
+}
+.EndBoxWin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    color: green;
+    text-align: Center;
+    font-size: 200px;
+    border: 5px solid green;
+    background-color: black;
+}
+.EndButtonWin{
+    text-align: center;
+    
+    height: 200px;
+    width: fit-content;
+    font-size: 150px;
+    position: relative;
+    background-color: green;
+    color: black;
+}
